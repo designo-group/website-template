@@ -14,6 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License
  */
+import { errorHandler as ErrorHandler } from './error.js';
 // import multer from 'multer';
 /*
 const storage = multer.diskStorage({
@@ -46,7 +47,7 @@ const index = (app) => {
     /**
      * Error handling middleware
      */
-    //app.use(ErrorHandler);
+    app.use(ErrorHandler);
 };
 
 export default index;
