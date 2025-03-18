@@ -95,7 +95,7 @@ try {
     });
 
     app.get('/', async function (req, res, next) {
-        return res.render('./countdown.html');
+        return res.render('./index.html');
     });
 
 
