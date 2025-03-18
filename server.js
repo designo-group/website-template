@@ -102,7 +102,7 @@ try {
     /**
      * Setup the app's routes
      */
-    // index(app);
+    index(app);
 
    
     app.get('*', (req, res) => {
