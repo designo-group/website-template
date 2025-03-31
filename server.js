@@ -43,7 +43,7 @@ try {
     app.set('views', './src/views/');
     app.use(useragent.express());
     app.use(express.static('dist'));
-    app.use('/uploads', express.static(path.resolve('./uploads')));
+    app.use('/images', express.static(path.resolve('./images')));
 
     app.use(express.urlencoded({ extended: true }));
 
