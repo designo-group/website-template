@@ -15,10 +15,9 @@ A simple and fast website template you can deploy with **CapRover** in just a fe
    node server.js
    ```
 
-3. Start the server:
+3. Open your browser and go to:
 
-   ```bash
    [http://localhost:8080](http://localhost:8080)
-   ```
+
 
 🎉 You're now running your first website locally!
